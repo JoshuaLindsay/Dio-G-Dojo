@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Crimson Text, sans-serif;
+    font-weight: 300;
+    color: #8B4513;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Righteous, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8B4513;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
