@@ -9,7 +9,7 @@
 body {
     font-family: Crimson Text, sans-serif;
     font-weight: 300;
-    color: #8B4513;
+    color: #D2691E;
 }
 
 /* headings and logo */
@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Righteous, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #8B4513;
+    color: #D2691E;
 }
 
 #logo {
@@ -69,10 +69,22 @@ h1, h2 {
     object-fit: scale-down;
     
     
+    
 }
 
 .hero-text {
     color: antiquewhite;
-    position: absolute;
+    position: relative;
     text-align: left;
+}
+
+
+.k-9-karate {
+    border: #8B4513;
+    padding: 70px;
+    border: 15px;
+    margin: 20px;
+    position: center;
+    text-align: center;
+    font-size: 50px;
 }
