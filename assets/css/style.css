@@ -57,18 +57,22 @@ h1, h2 {
     border-bottom: 1px solid #8B4513;
 }
 
-/* hero-image */
-
-#hero-outer {
-    height: 2048px;
-    width: 100%;
-    overflow: hidden;
-}
+/* hero-image and cover text */
 
 #hero-image {
-    height: 1000px;
+    background: url('../images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: 100%;
     object-fit: scale-down;
+    
+    
+}
+
+.hero-text {
+    color: antiquewhite;
+    position: absolute;
+    text-align: left;
 }
