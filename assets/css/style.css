@@ -10,6 +10,7 @@ body {
     font-family: Crimson Text, sans-serif;
     font-weight: 300;
     color: #D2691E;
+    background-color: #850101;
 }
 
 /* headings and logo */
@@ -109,4 +110,19 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #D2691E;
+}
+
+/*testimony image */
+
+#testimony-image {
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
 }
